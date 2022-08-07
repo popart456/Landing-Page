@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 24px;
+    align-items: center;
+}
+.info, .header {
+    background-color: #1f2937;
+    color: white;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects {
+    display: flex;
+    
+}
+ul {
+    list-style: none;
+}
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
