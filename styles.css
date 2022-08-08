@@ -21,15 +21,25 @@ body {
     text-decoration: none;
 }
 
+.header a:hover {
+    text-decoration: underline;
+}
+
 .projects a { /* Project links*/
     text-decoration: none;
     color: #1f2937;
     font-size: 20px;
 }
 
+.projects a:hover {
+    text-decoration: underline;
+}
+
 .projects img {
     width: 200px;
     margin: 10px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
 .example .description {
