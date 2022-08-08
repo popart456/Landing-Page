@@ -21,7 +21,7 @@ body {
     text-decoration: none;
 }
 
-.projects a {
+.projects a { /* Project links*/
     text-decoration: none;
     color: #1f2937;
     font-size: 20px;
@@ -33,8 +33,9 @@ body {
 }
 
 .example .description {
-    width: 250px;
+    width: 200px;
     text-align: center;
+    font-size: 14px;
 }
 
 a {
@@ -82,6 +83,17 @@ ul {
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 20px;
-    padding-bottom: 40px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footer #about h3{
+    font-size: 18px;
+    margin: 0 0 10px; /* headings and lists have padding+margin*/
+    padding: 0;
+}
+
+.footer #about div {
+    font-size: 14px;
 }
